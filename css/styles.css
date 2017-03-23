@@ -1,4 +1,79 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.35;
+  position: relative;
+}
+
+header {
+  background-color: #06D6A0;
+  width: 100%;
+  overflow: hidden;
+  margin-top: : 0
+
+}
+
+.logo {
+  color: white;
+  float: left;
+  position: relative;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-top: 8px
+}
+
+
 .navbar {
-  background-color: hotpink;
-  
+  float: right;
+}
+
+.nav-item {
+  font-size: 20px;
+  display: inline;
+  padding-right: 15px;
+
+}
+
+.welcome-content {
+  float: right;
+  width: 50%;
+  color: white;
+
+}
+
+
+.catpic {
+  float: left;
+  width: 50%;
+}
+
+img {
+  width: 100%;
+}
+
+.welcome {
+  background-color: #26547C;
+  text-align: center;
+  overflow: hidden;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+.cats {
+  background-color: #FFD166;
+  padding: 20px;
+}
+
+.products {
+  background-color: #F2F2F2;
+  padding: 20px;
 }
