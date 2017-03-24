@@ -77,3 +77,42 @@ img {
   background-color: #F2F2F2;
   padding: 20px;
 }
+
+.imgs {
+  border: medium solid black;
+  width: 30%;
+  display: inline-block;
+  margin-top: 10px;
+}
+.product-images {
+  /*display: inline;*/
+}
+
+.closing {
+  background-color: #26547C;
+  padding: 20px;
+}
+
+.team {
+  overflow: hidden;
+}
+
+.teamfun, .teamvalues, .teammeow {
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+  color: #EF476F;
+}
+
+.closing {
+  color: white;
+  padding: 20px;
+}
+
+.end {
+  background-color: #06D6A0;
+  padding: 10px;
+  line-height: 10px;
+  text-align: right;
+
+}
